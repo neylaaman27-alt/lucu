@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffd6e0, #e0c3fc);
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.from {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.mingyu {
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 0 20px pink;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: pink;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.star, .love, .flower {
+    position: absolute;
+    font-size: 20px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% { transform: translateY(-100px); }
+    100% { transform: translateY(100vh); }
+}
